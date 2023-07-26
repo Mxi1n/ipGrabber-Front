@@ -1,0 +1,28 @@
+{
+  "name": "uwu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "better-sqlite3": "^8.5.0",
+    "colors": "^1.4.0",
+    "discord.js": "^14.11.0",
+    "express": "^4.18.1",
+    "express-ip": "^1.0.4",
+    "quick.db": "^9.0.6",
+    "superagent": "^8.0.0",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "test": "npx tsc && npm start",
+    "start": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/superagent": "^4.1.18"
+  }
+}
